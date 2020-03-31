@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
       </Helmet>
 
       <header>
-        <h1>programozz.dev blog</h1>
+        <h2>programozz.dev blog</h2>
         <nav>
           <ul>
             <li>
