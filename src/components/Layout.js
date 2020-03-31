@@ -5,7 +5,7 @@ import './layout.css'
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className="wrapper">
       <Helmet>
         <link
           rel="stylesheet"
@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
       </header>
 
       <main>{children}</main>
-    </>
+    </div>
   )
 }
 
