@@ -1,12 +1,12 @@
 ---
 slug: regi-kirandulas
 title: Régi Kirándulás
-date: 2019-03-23
----
+date: 2019-03-22T23:00:00Z
 
+---
 ## Bevezetés
 
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dignissimos odit nostrum est. Cupiditate magnam repudiandae suscipit, nulla facere voluptas unde, modi minus earum in assumenda dolores molestias vel quisquam.
+**Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dignissimos odit nostrum est. Cupiditate magnam repudiandae suscipit, nulla facere voluptas unde, modi minus earum in assumenda dolores molestias vel quisquam.**
 
 ### Tárgyalás
 
