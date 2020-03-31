@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 export default ({ data }) => {
   return (
     <Layout>
-      <h2>{data.markdownRemark.frontmatter.title}</h2>
+      <h1>{data.markdownRemark.frontmatter.title}</h1>
 
       <article
         dangerouslySetInnerHTML={{

@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 export default () => {
   return (
     <Layout>
-      <h2>404</h2>
+      <h1>404</h1>
       <p>Sajnos az oldal nem található, amit keresel.</p>
       <p>
         <Link to="/">Vissza</Link>
