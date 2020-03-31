@@ -24,10 +24,10 @@ export default () => {
     <Layout>
       <h2>Blog lista</h2>
       {data.allMarkdownRemark.edges.map(({ node }) => (
-        <article>
+        <article className="teaser">
           <header>
             <h3>{node.frontmatter.title}</h3>
-            <p>{node.frontmatter.date}</p>
+            <span>{node.frontmatter.date}</span>
           </header>
 
           <p>{node.excerpt}</p>
