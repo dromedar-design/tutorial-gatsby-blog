@@ -22,7 +22,8 @@ export default () => {
 
   return (
     <Layout>
-      <h2>Blog lista</h2>
+      <h1>Blog lista</h1>
+
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <article className="teaser">
           <header>

@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
       </Helmet>
 
       <header>
-        <h1>{data.site.siteMetadata.title}</h1>
+        <h2>{data.site.siteMetadata.title}</h2>
         <nav>
           <ul>
             <li>

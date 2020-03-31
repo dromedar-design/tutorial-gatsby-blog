@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 export default () => {
   return (
     <Layout>
-      <h2>Rólam</h2>
+      <h1>Rólam</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
         dignissimos odit nostrum est. Cupiditate magnam repudiandae suscipit,
