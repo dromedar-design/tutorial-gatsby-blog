@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className="wrapper">
       <Helmet>
         <title>{data.site.siteMetadata.title}</title>
 
@@ -49,7 +49,7 @@ const Layout = ({ children }) => {
       </header>
 
       <main>{children}</main>
-    </>
+    </div>
   )
 }
 
