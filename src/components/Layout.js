@@ -1,12 +1,24 @@
-import { Link } from 'gatsby'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import './layout.css'
 
 const Layout = ({ children }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
   return (
     <>
       <Helmet>
+        <title>{data.site.siteMetadata.title}</title>
+
         <link
           rel="stylesheet"
           type="text/css"
@@ -19,7 +31,7 @@ const Layout = ({ children }) => {
       </Helmet>
 
       <header>
-        <h1>programozz.dev blog</h1>
+        <h1>{data.site.siteMetadata.title}</h1>
         <nav>
           <ul>
             <li>
