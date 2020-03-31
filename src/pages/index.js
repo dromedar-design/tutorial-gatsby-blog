@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import { useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql, Link } from 'gatsby'
 
 export default () => {
   const data = useStaticQuery(graphql`
     query BlogList {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
         edges {
           node {
             excerpt(pruneLength: 160)
@@ -32,6 +32,10 @@ export default () => {
           </header>
 
           <p>{node.excerpt}</p>
+
+          <p>
+            <Link to={node.frontmatter.slug}>Lássuk</Link>
+          </p>
         </article>
       ))}
     </Layout>
