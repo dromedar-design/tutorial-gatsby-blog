@@ -57,7 +57,7 @@ main a {
 .teaser {
   margin-top: 40px;
   padding: 20px;
-  background-color: #feebc8;
+  background-color: #f3f3f3;
 }
 @media (min-width: 500px) {
   .teaser header {
@@ -65,8 +65,7 @@ main a {
     justify-content: space-between;
   }
 }
-.teaser h2,
 .teaser h3 {
-  font-size: 20px;
+  font-weight: bold;
   margin-top: 0;
 }
